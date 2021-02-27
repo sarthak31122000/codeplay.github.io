@@ -1,0 +1,31 @@
+.carousel{
+    height: 50vh;
+    width: 85vw;
+    margin: 10px auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(red,hotpink);
+}
+.carousel-1{
+    transition: 0.5s ease-in-out;
+    height: 60%;
+    width: 30%;
+    /*border: 1px solid red;*/
+    border-radius: 3rem;
+    z-index: 2;
+    margin: 10px;
+    perspective: 80px;
+}
+.carousel-1:hover{
+    transform:scale(1.3);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 4;
+    cursor: pointer;
+}
+.carousel-1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}

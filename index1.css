@@ -1,0 +1,413 @@
+body{
+    background-image: linear-gradient(45deg,#0F2027,#203A43,#2C5364);
+}
+.latest-release{
+  width: 66%;
+  height: 300px;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  /* background-image: linear-gradient(45deg,#0F2027,#203A43,#2C5364); */
+
+}
+.latest-release span h3{
+  text-transform: capitalize;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  /* opacity: 0.8; */
+  position: absolute;
+  left: 2rem;
+  font-size: x-large;
+  font-weight: 800;
+  top: -2rem;
+}
+.music-one{
+  height: 8rem;
+  width: 28em;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 30px;
+  left: 4rem;
+  display: inline-block;
+}
+.music{
+  height: 69%;
+  width: 55%;
+  position: relative;
+  left: 2rem;
+  top: 16px;
+  bottom: 12px;
+  /* right: 15rem; */
+  border: 1px solid red;
+  display: inline-block;
+}
+.music-img{
+  height: 65%;
+  width: 20%;
+  border: 1px solid red;
+  position: relative;
+  left: 1rem;
+  top: 11px;
+  display: inline-block;
+}
+.music-img img{
+  height: 100%;
+  width: 100%;
+
+}
+.music h3{
+  color: white;
+    font-weight: bolder;
+    display: inline-block;
+    position: absolute;
+    left: 2rem;
+    top: -7px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.music p{
+  position: absolute;
+top: 2rem;
+color: lavender;
+left: 2rem;
+font-family: 'PT Sans', sans-serif;
+}
+.music-one i{
+  position: absolute;
+  right: 6rem;
+  top: 21px;
+  color: white;
+  opacity: 0.8;
+}
+.music-img .play-img{
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 27px;
+  left: 27px;
+  opacity: 0;
+}
+.music-img .play-img:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+/* ***************************POPULAR ARTIST********************* */
+.play{
+  z-index: 2;
+  position: absolute;
+  font-size: 2rem;
+  /* right: -6rem; */
+  margin: 8px;
+  top: 2rem;
+  left: 3rem;
+  color:#0f0f0f;
+  /* visibility: hidden; */
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.play:hover{
+	opacity: 0.9;
+  cursor: pointer;
+}
+.popular-artist{
+  width: 60%;
+  height:250px;
+  /* background-image: linear-gradient(45deg,#0F2027,#203A43,#2C5364); */
+  border:1px solid red;
+  position: absolute;
+  top: 500px;
+
+}
+.popular-artist span h3{
+      text-transform: capitalize;
+      font-family: 'PT Sans', sans-serif;
+      color: white;
+      /* opacity: 0.8; */
+      position: absolute;
+      left: 2rem;
+      font-size: x-large;
+      font-weight: 800;
+}
+.artist-box{
+      height: 10rem;
+      width: 10rem;
+      /* border: 1px solid red; */
+      display: inline-block;
+      position: absolute;
+      top: 5rem;
+      left: 3rem;
+      text-align: center;
+
+}
+
+.artist{
+  height: 7rem;
+  width: 8rem;
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: relative;
+  top: 1rem;
+  /* left: 1rem; */
+  border-radius: 50%;
+  background-image: url(https://imageproxy.themaven.net//https%3A%2F%2Fwww.biography.com%2F.image%2FMTM5ODkxNzYyODU1NDIwOTM4%2Fed-sheeran-gettyimages-494227430_1600jpg.jpg);
+  background-size: contain;
+}
+.artist:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* .artist:hover{
+  transition: 0.5s ease-in-out;
+  box-shadow:0 32px 32px rgba(0,0,0,0.11);
+  transform: scale(1.2);
+  cursor: pointer;
+} */
+.artist-name{
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+
+}
+#artist-box-1{
+  left: 15rem;
+}
+#artist-box-2{
+  left: 27rem;
+}
+#artist-box-3{
+  left: 40rem;
+}
+/* **********************middle-section****************************** */
+.middle-section{
+  position: absolute;
+  top: 800px;
+  width: 73%;
+  height: 200px;
+  border: 1px solid red;
+  /* background-image: linear-gradient(45deg,#0F2027,#203A43,#2C5364); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+.middle-section span h3{
+      text-transform: capitalize;
+      font-family: 'PT Sans', sans-serif;
+      color: white;
+      /* opacity: 0.8; */
+      position: absolute;
+      left: 2rem;
+      top: -3rem;
+      font-size: x-large;
+      font-weight: 800;
+}
+.middle{
+  height: 70%;
+  width: 19rem;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  /* transition: 0.5s ease-in-out; */
+
+  text-align: center;
+  box-shadow: 0 0 5px lightgreen;
+}
+.middle img{
+      height: 100%;
+      width: 100%;
+      transition: 0.5s ease-in-out;
+      opacity: 0.8;
+}
+.middle:hover img{
+  transform:scale(1.5);
+  opacity: 1;
+}
+
+.middle h3{
+  color: white;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  position: absolute;
+  margin-top: 3rem;
+  margin-left: -13rem;
+}
+    /* <!-- ************************** Hindi and english release*********************************** --> */
+.hindi-english{
+  position: absolute;
+  top: 1060px;
+  width: 78%;
+  height: 300px;
+  /* border:2px solid red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.title{
+  font-family: 'Ubuntu', sans-serif;
+      font-weight: 700;
+      font-size: xx-large;
+      color: white;
+      /* opacity: 1; */
+      position: absolute;
+      top: -25px;
+      left: 4rem;
+}
+.main{
+      height: 13rem;
+      width: 12rem;
+      /* border: 2px solid red; */
+}
+.main-img{
+  margin: 16px 13px;
+  height: 68%;
+  width: 87%;
+  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+  transition: 0.5s ease-in-out;
+}
+.main-img:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.main h3{
+  color: white;
+    font-weight: bolder;
+    display: inline-block;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: auto; */
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    bottom: 2rem;
+
+}
+.main p{
+  color: lavender;
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 57px;
+  display: inline-block;
+  /* margin-top: -6px; */
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+/* **********************english************************** */
+.english{
+  position: absolute;
+  top: 1400px;
+  width: 78%;
+  height: 300px;
+  /* border:2px solid red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.main{
+      height: 13rem;
+      width: 12rem;
+      /* border: 2px solid red; */
+}
+.main-img{
+  margin: 16px 13px;
+  height: 68%;
+  width: 87%;
+  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+  transition: 0.5s ease-in-out;
+}
+.main-img:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.main h3{
+  color: white;
+    font-weight: bolder;
+    display: inline-block;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: auto; */
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    bottom: 2rem;
+
+}
+.main p{
+  color: lavender;
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 57px;
+  display: inline-block;
+  /* margin-top: -6px; */
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+/* ******************music-themes**************************** */
+.music-themes{
+  position: absolute;
+  top: 1800px;
+  height: auto;
+  width: auto;
+  margin: 0rem 9rem;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding: 20px;
+
+}
+.music-type{
+      height: 8rem;
+      width: 8rem;
+      border-radius: 50%;
+      background-image: url(images/love.jpg);
+      background-size: contain;
+      /* background-color: #a3d2ca; */
+      text-align: center;
+      margin: 1rem;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: hotpink;
+  overflow;hidden;
+  transform:scale(1);
+  /* transition:0.5s linear; */
+  opacity: 0.2;
+}
+.overlay-1{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color:#a3d2ca;
+  overflow;hidden;
+  transform:scale(0);
+  transition:0.5s linear;
+  opacity: 0.2;
+  z-index: 2;
+}
+.overlay:hover .overlay-1{
+  transform: scale(1);
+
+}
+h4{
+  color: white;
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+  position: relative;
+  top: -93px;
+  left: 0px;
+
+}
+.music-themes h3{
+  margin-top: -2rem;
+  margin-left: -4rem;
+}
